@@ -1,10 +1,9 @@
 import React, {Component} from 'react'
 
-class App extends Component{
+export default class App extends Component{
 
   render(){
-    return <div> This is a react app now </div> 
+    return <div> This is a react app!! Now with hot swap! </div>
   }
 
 }
-export default App
