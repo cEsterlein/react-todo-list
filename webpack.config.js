@@ -3,7 +3,7 @@ module.exports = {
   devtool: 'inline-source-map',
   entry : [
     'webpack-hot-middleware/client',
-  './client/client.js'
+    './client/client.js'
 ],
   output: {
     path: require('path').resolve('./dist'),
@@ -11,7 +11,7 @@ module.exports = {
     publicPath: '/'
   },
   plugins:[
-    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
   ],
